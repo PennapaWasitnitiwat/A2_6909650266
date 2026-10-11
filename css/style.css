@@ -5,9 +5,19 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.3;
+  
 }
 
 
+#main {
+  width: 800px;
+  height: 800px;
+  max-width: 100%;
+  background-color: #f9f4f9;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(199, 20, 122, 0.1);
+
+}
 
 #header {
   margin: auto;
@@ -22,25 +32,18 @@ body {
   margin: auto;
   padding: 3rem;
   text-align: center;
+  background-color: #000000;
+  border: 2px solid #000000;
 
 }
 
 
-.container {
-  max-width: 900px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 40px;
-  box-sizing: border-box;
-}
 
-#banner {
+.banner {
   width: 100%;
   max-width: 100%;
   margin: 20px auto;
   position: relative;
-  background-color: #000000;
-  border: 2px solid #000000;
   border-radius: 5px;
   max-width: 100%;
   height: auto;
@@ -52,23 +55,17 @@ body {
 }
 
 
-.about-me {
-  text-align: left;
-  background-color: #f9f4f9;
-  margin: 6rem 10rem;
-  padding: 4rem;
-  border-radius: 4px;
-  box-shadow: 0 4px 6px rgba(199, 20, 122, 0.1);
-}
-
 .text {
   text-align: left;
   background-color: #f9f4f9;
+  margin-top: 3rem;
   padding: 3rem;
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(199, 20, 122, 0.1);
-  overflow-wrap: break-word;
-  word-break: break-all;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 
@@ -85,51 +82,35 @@ p {
   font-family: 'Mitr', sans-serif;
 }
 
-h2 {
-  font-size: 37px;
-  margin-bottom: 3rem;
-}
-
-.sticker {
-  width: 175px;
-}
-
-
-
 
 #introduce {
   text-align: center;
   padding: 4rem;
   background-color: #ffffff;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  box-sizing: border-box;
 }
 
-#what-i-built {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+
+#introduce h2 {
+  font-size: 37px;
+  margin-bottom: 3rem;
+  border-bottom: 2px solid #ecd1e4;
+  padding-bottom: 1rem;
 }
 
-#how-i-built {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+.img1 {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
 }
 
-#reflect {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
-}
 
-#footer {
+
+.footercontainer {
   text-align: center;
   font-size: 1.1rem;
   font-family: serif;
@@ -142,7 +123,7 @@ h2 {
 
 }
 
-#footer a {
+.footercontainer a {
   color: #fbcbe3;
   text-decoration: none;
 }
