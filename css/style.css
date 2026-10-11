@@ -64,7 +64,6 @@ body {
 .text {
   text-align: left;
   background-color: #f9f4f9;
-  margin: 3rem 2rem 0.1rem;
   padding: 3rem;
   border-radius: 6px;
   box-shadow: 0 4px 6px rgba(199, 20, 122, 0.1);
@@ -100,7 +99,6 @@ h2 {
 
 #introduce {
   text-align: center;
-  margin: 6rem 12rem;
   padding: 4rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -109,7 +107,6 @@ h2 {
 
 #what-i-built {
   text-align: center;
-  margin: 6rem 12rem;
   padding: 4rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -118,7 +115,6 @@ h2 {
 
 #how-i-built {
   text-align: center;
-  margin: 6rem 12rem;
   padding: 4rem;
   background-color: #ffffff;
   border-radius: 12px;
@@ -127,7 +123,6 @@ h2 {
 
 #reflect {
   text-align: center;
-  margin: 6rem 12rem;
   padding: 4rem;
   background-color: #ffffff;
   border-radius: 12px;
