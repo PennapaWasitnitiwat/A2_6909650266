@@ -9,6 +9,7 @@ body {
 
 
 
+
 #header {
   margin: auto;
   padding: auto;
@@ -22,25 +23,18 @@ body {
   margin: auto;
   padding: 3rem;
   text-align: center;
+  background-color: #000000;
+  border: 2px solid #000000;
 
 }
 
 
-.container {
-  max-width: 900px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 40px;
-  box-sizing: border-box;
-}
 
-#banner {
+.banner {
   width: 100%;
   max-width: 100%;
   margin: 20px auto;
   position: relative;
-  background-color: #000000;
-  border: 2px solid #000000;
   border-radius: 5px;
   max-width: 100%;
   height: auto;
@@ -105,31 +99,9 @@ h2 {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
 }
 
-#what-i-built {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
-}
 
-#how-i-built {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
-}
 
-#reflect {
-  text-align: center;
-  padding: 4rem;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
-}
-
-#footer {
+.footercontainer {
   text-align: center;
   font-size: 1.1rem;
   font-family: serif;
@@ -142,7 +114,7 @@ h2 {
 
 }
 
-#footer a {
+.footercontainer a {
   color: #fbcbe3;
   text-decoration: none;
 }
