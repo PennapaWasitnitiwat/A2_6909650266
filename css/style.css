@@ -82,7 +82,7 @@ p {
 
 #introduce {
   text-align: center;
-  padding: 4rem;
+  padding: 2.5rem;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
@@ -91,11 +91,13 @@ p {
 }
 
 
-#introduce h2 {
+h2 {
   font-size: 37px;
   margin-bottom: 3rem;
-  border-bottom: 2px solid #ecd1e4;
-  padding-bottom: 1rem;
+  border-bottom: 1.3px solid #2d282b;
+  text-align: center;
+  padding-bottom: 1.5rem;
+
 }
 
 
@@ -106,14 +108,33 @@ p {
   height: 250px;
 }
 
+#CssPort {
+  text-align: center;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  box-sizing: border-box;
+}
 
+
+#exPort {
+  text-align: center;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  justify-content: center;
+  box-sizing: border-box;
+}
 
 .footercontainer {
   text-align: center;
   font-size: 1.1rem;
   font-family: serif;
   margin: auto;
-  padding: 0.2rem 1rem 1rem;
+  padding: 2rem 1rem 1rem;
   color: #efbce0;
   background: linear-gradient(to bottom, #1d1d39, #46223c);
   border-radius: 5px;
@@ -132,9 +153,16 @@ p {
   margin: auto;
   padding: 1rem;
   color: #efbce0;
-  line-height: 4;
+  line-height: 3.2;
 }
 
+
+footer h2 {
+  font-size: 37px;
+  margin-bottom: 3rem;
+  border-bottom: 1.3px solid #8f6f83;
+  padding-bottom: 1.5rem;
+}
 
 
 .side-image {
