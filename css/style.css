@@ -129,6 +129,29 @@ h2 {
   box-sizing: border-box;
 }
 
+.img2 {
+border-radius: 15px;
+  width: 250px;
+  height: 280px;
+  margin-top: 2rem;
+}
+
+
+.img3 {
+border-radius: 15px;
+  width: 250px;
+  height: 250px;
+}
+
+.img4 {
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
+  margin-top: 2rem;
+}
+
+
+
 .footercontainer {
   text-align: center;
   font-size: 1.1rem;
